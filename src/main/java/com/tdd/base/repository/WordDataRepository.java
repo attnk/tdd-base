@@ -97,14 +97,14 @@ public class WordDataRepository {
 	
 	/**
 	 * Retorna uma palavra contendo os dados da palavra definida como busca.
-	 * @param word {@link Enum} referente a palavra buscada.
+	 * @param word {@link String} referente a palavra buscada.
 	 * @return A palavra com suas definições.
 	 * @throws WordDataRepositoryException 
 	 */
-	public WordsVo getSingleWord(Words word) throws WordDataRepositoryException {
-		if(word == null || !this.wordsMap.containsKey(word.name())) {
+	public WordsVo getSingleWord(String word) throws WordDataRepositoryException {
+		if(word == null || word.isEmpty() || !this.wordsMap.containsKey(word)) {
 			throw new WordDataRepositoryException("Palavra não encontrada!");
 		}
-		return this.wordsMap.get(word.name());
+		return this.wordsMap.get(word);
 	}
 }
