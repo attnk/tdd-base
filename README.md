@@ -37,7 +37,8 @@ Como objetivo inicial e principal, foi exigido que esse sistema seja atualizado 
 <b>OBS<b/>: 
 * O serviço deve responder a uma requisição GET;
 * A mesma URL que responde os dados de uma palavra será a mesma para o comando ALL;
-* Localmente o serviço deve responder na seguinte URL: localhoast:8080/tdd-base/words/data/[PALAVRA]
+* Localmente o serviço deve responder na seguinte URL: localhoast:8080/tdd-base/words/data/[PALAVRA];
+* Em caso de erro, retornar para a tela a página de HTTP Status 500.
 
 ___
 # Técnologias utilizadas
