@@ -41,7 +41,7 @@ Como objetivo inicial e principal, foi exigido que esse sistema seja atualizado 
 * Em caso de erro, retornar para a tela a página de HTTP Status 500.
 
 ___
-# Técnologias utilizadas
+# Tecnologias utilizadas
 + Java 8;
 + Spring Boot 1.3.3;
 + JUnit + Mockito.
