@@ -68,7 +68,7 @@ public class WordDataRepository {
 		map.put(Words.IRONMAN.name(), 
 				new WordsVo(
 					"Ironman, um super ricasso conhecedor de muitos recursos tecnológicos e armamentistas, criou sua própria armadura.", 
-					"Ironman um dos lados da Guerra Civil da Marvel. #TEAMIRON", 
+					"Ironman um dos lados da Guerra Civil da Marvel. #TEAMSTARK", 
 					"http://goo.gl/39mLxm", 
 					"https://goo.gl/Y6EEzq", 
 					Words.IRONMAN)
