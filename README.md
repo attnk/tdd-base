@@ -3,7 +3,7 @@ Projeto utilizado como base, para treinar o conhecimento e uso do TDD no desenvo
 ___
 Como base para esse projeto temos o seguinte enunciado:
 <br/>
-Foi solicitado p desevolvimento de uma espécie de mini dicionário, onde inicialmente temos algumas palavras que contém apenas alguns detalhes referênte as mesmas. Dentre as informações de cada palavra temos:
+Foi solicitado o desevolvimento de uma espécie de mini dicionário, onde inicialmente temos algumas palavras que contém apenas alguns detalhes referênte as mesmas. Dentre as informações de cada palavra temos:
 <br/>
 <br/>
 1) Uma breve definição;
